@@ -18,7 +18,8 @@ public class DirectDegree {
                 break;
             case "S":
                 System.out.println("180");
-                break;
+                // What happens if there is no break in S case
+                // break;
             case "W":
                 System.out.println("270");
                 break;

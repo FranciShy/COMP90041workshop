@@ -13,6 +13,7 @@ public class W3D2 {
             switch(y) {
                 case 34:
                     System.out.println("Get 34");
+                    // where we break to?
                     break;
                 // what if not 144 but 145 instead?
                 case 144:
