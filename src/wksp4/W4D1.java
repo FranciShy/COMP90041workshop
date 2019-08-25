@@ -2,9 +2,11 @@ package wksp4;
 
 public class W4D1 {
     public static void main(String[] args) {
+        // compare object address
         String a = new String("Iron Man");
         String b = a;
         System.out.println("a == b: " + (a == b));
+        // constructor return a new object reference
         a = new String("Tony Stark");
         System.out.println("a == b: " + (a == b));
 

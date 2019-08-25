@@ -3,11 +3,14 @@ package wksp4;
 public class HeroPrinter {
     private String[] heros;
 
+    // field initialization is earlier than constructor
+    // usually they have the same use
 //    private String[] heros = {
 //            "Tony Stark",
 //            "Peter Parker"
 //    };
 
+    // how about Constructor overloading?
     public HeroPrinter() {
         heros = new String[] {
                 "Thor", "Tony Stark", "Peter Park", "Hulk", "Rocket"
