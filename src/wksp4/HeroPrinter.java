@@ -52,7 +52,7 @@ public class HeroPrinter {
         System.out.println("\nprintHeroes(int num):");
         marvel.printHeroes(3);
 
-        System.out.println("\nprintHeroes(String name = \"Peter\")");
-        System.out.println(marvel.printHeroes("Peter"));
+        System.out.println("\nprintHeroes(String name = \"Peter Park\")");
+        System.out.println(marvel.printHeroes("Peter Park"));
     }
 }
