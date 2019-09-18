@@ -6,7 +6,7 @@ public class Test {
         System.out.println(myObject);
         System.out.println();
 
-        MySmallClass mySmallObject = new MySmallClass();
+        MySmallClass mySmallObject = MyClass.smallClassFactory();
         System.out.println(mySmallObject);
     }
 }

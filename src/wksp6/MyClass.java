@@ -21,6 +21,10 @@ public class MyClass {
         return new MyClass(msg);
     }
 
+    public static MySmallClass smallClassFactory() {
+        return new MySmallClass();
+    }
+
     @Override
     public String toString() {
         return "tell you a secret: " + msg;
