@@ -1,3 +1,6 @@
+// @author: Francis Zhong
+// Unimelb 2019 COMP90041 SM2 workshop
+
 package wksp7;
 
 public class Subject {
