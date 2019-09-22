@@ -1,10 +1,9 @@
-package wksp8;
+// @author: Francis Zhong
+// Unimelb 2019 COMP90041 SM2 workshop
+
+package wksp8a;
 
 public class DressShoe extends Shoe {
-    public enum HeelType {
-        PUMP, HEEL, FLAT
-    }
-
     HeelType heel;
 
     public static final ShoeType ShoeType() {
@@ -35,8 +34,14 @@ public class DressShoe extends Shoe {
         return heel;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + ", (heel, " +
+                heel.toString().toLowerCase() + ")";
+    }
+
     public static void main(String[] args) {
         DressShoe s = new DressShoe();
-        System.out.println(s.getHeel());
+        System.out.println(s);
     }
 }

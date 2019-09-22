@@ -1,9 +1,7 @@
 // @author: Francis Zhong
 // Unimelb 2019 COMP90041 SM2 workshop
 
-package wksp8;
-
-import wksp7.Student;
+package wksp7;
 
 public class ArrayDemo {
     public static void main(String[] args) {
