@@ -51,6 +51,11 @@ public class Student {
         subject.dropStudent(this);
     }
 
+    @Override
+    public String toString() {
+        return this.name + "(" + this.id + ")";
+    }
+
     public String getName() {
         return name;
     }
