@@ -49,6 +49,6 @@ public class ArrayDemo {
 
     // a random method provide int size
     public static int randomSize(int size) {
-        return (int) (Math.random() * 4) + 1;
+        return (int) (Math.random() * size) + 1;
     }
 }

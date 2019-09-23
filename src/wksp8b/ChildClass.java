@@ -9,6 +9,7 @@ public class ChildClass extends ParentClass {
 
     // to avoid no default constructor
     public ChildClass() {
+        // super();
         // an empty default constructor?
         System.out.println("Child class default constructor");
     }
